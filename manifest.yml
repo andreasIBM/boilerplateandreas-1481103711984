@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: boilerplateandreas
+  host: boilerplateandreas
+  disk_quota: 1024M
+  services:
+  - boilerplateandreas-cloudantNoSQLDB
